@@ -1,0 +1,29 @@
+.firstchildtest, .lastchildtest, .evenchildtest{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 300px;
+    width: 100%;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.firstchildtest .square{
+    background-color: green;
+}
+.lastchildtest .square{
+    background-color: brown;
+}
+.evenchildtest .square{
+   background-color: hotpink    ;
+}
